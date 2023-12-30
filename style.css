@@ -1,0 +1,639 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Bahnschrift Light;
+}
+/*--------------header-start---------------*/
+.header {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+.header div {
+  float: left;
+}
+.header .logo {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.header .nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 100px;
+}
+
+.header .nav ul {
+  list-style: none;
+  z-index: 99999;
+}
+.header .nav ul li {
+  float: left;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+.header .nav ul li a {
+  text-decoration: none;
+  color: #4c4f4c;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+.header .nav ul li a:hover {
+  color: #84aeff;
+  transition: all 0.5s ease;
+}
+
+/* mobile responsive menu start */
+.checkbtn {
+  display: none;
+  font-size: 30px;
+  color: #4c4f4c;
+  line-height: 80px;
+  float: right;
+  cursor: pointer;
+}
+#check {
+  display: none;
+}
+/* mobile responsive menu end */
+
+/*----------header-end----------------*/
+/*----------Sectio-one-statr----------------*/
+.sec-one {
+  width: 100%;
+  background-color: #f9f9ff;
+  height: 665px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 75px;
+}
+.textarea {
+  width: 50%;
+  margin-left: 230px;
+  margin-bottom: 120px;
+}
+.imgarea {
+  width: 50%;
+  padding-right: 160px;
+  margin-top: 50px;
+}
+.imgarea img {
+  max-width: 100%;
+  height: auto;
+}
+.textarea h3 {
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.textarea h1 {
+  font-size: 60px;
+}
+.textarea p {
+  color: #808080af;
+  width: 80%;
+  text-align: justify;
+}
+.textarea input {
+  padding: 13px 28px;
+  color: #fff;
+  background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  outline: none;
+  border: 1px solid #71aafe;
+  font-size: 15px;
+}
+.textarea input:hover {
+  box-shadow: 5px 10px 30px #8492fdc5;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+/*----------Sectio-one-end----------------*/
+/*----------Sectio-two-statr----------------*/
+.sec-two {
+  width: 100%;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-two div {
+  width: 40%;
+  margin: 0 auto;
+}
+.sec-two img {
+  max-width: 90%;
+  height: auto;
+}
+.aboutimg {
+  padding-left: 150px;
+}
+.abouttext h3 {
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.abouttext h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.abouttext p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  width: 80%;
+  text-align: justify;
+}
+.abouttext input {
+  padding: 13px 28px;
+  color: #fff;
+  background: linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  outline: none;
+  border: 1px solid #71aafe;
+  font-size: 15px;
+}
+.abouttext input:hover {
+  box-shadow: 5px 10px 30px #8492fdc5;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+/*----------Sectio-two-end----------------*/
+/*----------Sectio-three-start----------------*/
+.sec-three {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+.servicearea h1 {
+  font-size: 35px;
+  line-height: 10px;
+}
+.servicearea p {
+  width: 670px;
+  margin: 0 auto;
+  color: rgba(125, 125, 125, 0.589);
+}
+
+.service {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.service .svc1,
+.svc2 {
+  width: 100%;
+}
+.svc1 div,
+.svc2 div {
+  width: 32%;
+  float: left;
+  padding: 5px;
+  margin: 0 auto;
+}
+.svc2 {
+  padding-top: 30px;
+}
+.service i {
+  font-size: 40px;
+  color: #454545;
+  margin-bottom: 10px;
+}
+.service h1 {
+  font-size: 20px;
+  color: #454545;
+}
+.service p {
+  color: rgba(125, 125, 125, 0.719);
+}
+
+.wrapper:hover i {
+  color: #8792f1;
+}
+.wrapper:hover h1 {
+  color: #8792f1;
+}
+/*----------Sectio-three-end----------------*/
+/*----------Sectio-four-start----------------*/
+.sec-four {
+  width: 100%;
+  height: 300px;
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  margin-top: 100px;
+}
+.sec-four div {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+  float: left;
+  position: relative;
+  top: 100px;
+  left: 180px;
+}
+.sec-four h1,
+.sec-four p {
+  text-align: center;
+  color: #fff;
+}
+.sec-four h1 {
+  font-size: 45px;
+  line-height: 0;
+}
+/*----------Sectio-four-end---------------*/
+/*---------Sectio-five-start----------------*/
+
+.sec-five {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 160px;
+  margin-bottom: 80px;
+}
+
+.textthree {
+  text-align: center;
+  margin-bottom: 93px;
+}
+.textthree h1 {
+  font-size: 35px;
+  color: #454545;
+  line-height: 5px;
+}
+
+.textthree p {
+  color: #454545;
+}
+.imgg {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.imgg div {
+  width: 340px;
+  height: 339px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.imgg h1 {
+  font-size: 20px;
+  color: #454545;
+}
+.imgg p {
+  color: #454545;
+  line-height: 0;
+}
+.imgg figure {
+  background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+  width: 340px;
+  height: 339px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 3%;
+}
+.imgg figure:hover img {
+  opacity: 0.3;
+  transition: all 0.3s ease-in-out;
+}
+
+/*---------Sectio-five-end----------------*/
+/*---------Sectio-six-start----------------*/
+.sec-six {
+  width: 100%;
+  height: auto;
+}
+.sec-six .textareasix {
+  text-align: center;
+  padding: 2% 0;
+}
+.textareasix h1 {
+  font-size: 35px;
+  line-height: 0;
+  padding-top: 15px;
+  color: #454545;
+}
+.textareasix p {
+  color: #454545;
+}
+.sec-six .card {
+  width: 75%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: wrap row;
+  margin: 0 auto;
+  text-align: center;
+  background: #f9f9ff;
+  margin-top: 40px;
+  overflow: hidden;
+}
+.sec-six .card .card1 {
+  width: 225px;
+  height: 525px;
+  padding: 50px;
+  position: relative;
+  border-radius: 10px;
+  margin: 20px 5px;
+}
+.card1 h1 {
+  width: 50px;
+  height: 43px;
+  margin: 0 auto;
+  border-radius: 50% 50% 47% 53% / 49% 49% 51% 51%;
+  font-size: 40px;
+  font-weight: normal;
+  background: #edefff;
+  padding: 19px;
+  border: 34px solid #e2e5ff;
+}
+.card1 input {
+  padding: 10px 95px;
+  color: #000;
+  background: #fff;
+  outline: none;
+  border: 1px solid #ffffff;
+  font-size: 15px;
+  position: absolute;
+  bottom: 70px;
+  right: 40px;
+  left: 32px;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  display: none;
+}
+.card1 h2 {
+  font-size: 17px;
+  margin-top: 30px;
+}
+.card1 p {
+  color: #454545;
+}
+.sec-six .card .card1:hover {
+  background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.05);
+}
+.sec-six .card .card1:hover input {
+  display: flex;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.card1:hover h1 {
+  border: 34px solid #97c5fe;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  background: #7fb4fd;
+}
+.card1:hover h2,
+p {
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+.card1:hover p {
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+}
+
+/*---------Sectio-six-end----------------*/
+/*---------footer-area-start----------------*/
+
+.footerarea {
+  width: 100%;
+  height: 400px;
+  background: #04091e;
+  color: #fff;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.footerwrapper {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.footerwrapper .about p {
+  width: 470px;
+  color: #787878;
+  text-align: justify;
+}
+.footerwrapper p {
+  color: #787878;
+}
+.footerwrapper .news input {
+  font-size: 15px;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  width: 337px;
+  position: relative;
+}
+.footerwrapper .news button {
+  font-size: 15px;
+  color: #fff;
+  background: #8490ff;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  margin: 0;
+  margin-left: -10px;
+  cursor: pointer;
+}
+.follome i {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+
+.fa-facebook:hover {
+  color: #0e8ff2;
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+.fa-instagram:hover {
+  color: #f60775;
+}
+.fa-youtube:hover {
+  color: #ff0000;
+}
+
+/*---------footer-area-end----------------*/
+
+@media (max-width: 768px) {
+  /* mobile responsive logo start */
+  .header {
+    width: 100%;
+    height: auto;
+  }
+  .header .logo {
+    margin-left: 30px;
+    padding: 20px;
+  }
+  /* mobile responsive logo end */
+  /* mobile responsive menu start */
+  .checkbtn {
+    display: block;
+  }
+  .header .nav ul {
+    width: 265px;
+    position: fixed;
+    height: 100vh;
+    background: #fff;
+    top: 45px;
+    left: -200%;
+    transform: all 0.1s;
+    padding: 0;
+  }
+
+  .header .nav ul li {
+    width: 100%;
+    line-height: 30px;
+    clear: both;
+    margin-top: 15px;
+    text-align: center;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  .header .nav ul li a {
+    font-size: 30px;
+  }
+  /* mobile responsive menu end */
+  /* mobile sec-one */
+
+  .sec-one{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+.textarea{
+  margin: auto;
+  padding: 0;
+}
+.textarea h3{
+  font-size: 15px;
+  padding-top: 30px;
+} 
+.textarea h1{
+  font-size: 30px;
+} 
+
+.imgarea img{
+  margin-left: 158px;
+  margin-top: 30px;
+  max-width: 100%;
+  height: auto;
+}
+  /* mobile sec-two */
+
+.sec-two{
+  display: block;
+  width: 100%;
+  height: 100vh;
+  top: 150px;
+  position: relative;
+}
+
+.sec-two .aboutimg img{
+  position: relative;
+  right:100px;  
+}
+.sec-two .aboutimg{
+  width: 100%;
+}
+.sec-two .abouttext{
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.abouttext h3{
+  font-size: 12px;
+}
+.abouttext h1{
+  font-size: 30px;
+}
+.abouttext p{
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+}
+.sec-three{
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 300px;
+}
+
+.servicearea p{
+  width: 80%;
+}
+.svc1 div, .svc2 div{
+  clear: left;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.sec-four{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 250px;
+}
+.sec-four div{
+  clear: left;
+  margin-left: 50px;
+}
+
+.sec-five{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 200px;
+}
+
+.sec-six{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 2200px;
+}
+
+.footerarea{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 3750px;
+}
+
+.footerwrapper{
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
